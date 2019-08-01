@@ -16,11 +16,12 @@ Connect to the raspberry:
 
     ssh pi@X.X.X.X
     
-Replace X.X.X.X with raspberry local IP address. (N.B: it requires the SSH to be enabled.)
+Replace X.X.X.X with raspberry local IP address.
+N.B: Default password is ```raspberry```.
 
 ## First settings
 Change password:
 
     passwd
 
-Enter old password (default is ```raspberry```) and choose a new one.
+Enter old password and choose a new one.

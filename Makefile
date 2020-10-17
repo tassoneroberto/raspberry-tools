@@ -3,10 +3,10 @@
 all: docker
 
 docker:
-	@docker build --tag=remote-pi-bot  .
+	@docker build --tag=raspberry-tools  .
 
 run:
-	@docker run -it --name=remote-pi-bot remote-pi-bot
+	@docker run -it --name=raspberry-tools raspberry-tools
 
 down:
-	@docker rm --force remote-pi-bot
+	@docker rm --force raspberry-tools
